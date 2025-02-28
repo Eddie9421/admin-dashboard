@@ -3,3 +3,34 @@
     margin: 0;
     padding: 0;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 5fr;
+}
+
+.header {
+    background-color: red;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-container, .header-top-right {
+    display: flex;
+}
+
+.search-bar {
+    width: 15rem;
+    background-color: #f2f2f2;
+    border-radius: 2rem;
+    height: 2rem;
+}
