@@ -70,6 +70,7 @@ body {
 .header-bottom-right {
     gap: 3rem;
 }
+
 .search-container {
     display: flex;
     justify-content: flex-start;
@@ -128,6 +129,7 @@ body {
     z-index: 1;
     font-weight: bold;
     background-color: #ff3341;
+    font-size: 1.5rem;
 }
 
 .dashboard-option > img {
