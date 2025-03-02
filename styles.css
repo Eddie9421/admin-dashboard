@@ -199,3 +199,21 @@ img {
     flex-direction: column;
     gap: 1rem;
 }
+
+.trending {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user > img {
+    height: 1rem;
+    width: 1rem;
+}
