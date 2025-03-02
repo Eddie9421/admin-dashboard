@@ -113,3 +113,12 @@ img {
 .dashboard-bottom {
     grid-row: 3 / 4;
 }
+
+.main {
+    padding: 2rem;
+    background-color: grey;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+}
+
