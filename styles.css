@@ -170,3 +170,26 @@ img {
 .project-icons > img {
     width: 2rem;
 }
+
+.announcements {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.announcement {
+    padding-bottom: 1rem;
+}
+
+.announcement:not(:last-child) {
+    border-bottom: 2px grey solid;
+}
+
+.announcements-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
