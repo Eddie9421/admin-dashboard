@@ -124,6 +124,8 @@ img {
 
 .projects {
     grid-row: span 2;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
 }
 
 .announcements {
@@ -134,4 +136,10 @@ img {
 .trending {
     grid-row: 2;
     grid-column: 2 / 3;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
