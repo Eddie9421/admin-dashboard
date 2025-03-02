@@ -11,19 +11,18 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 1fr 6fr;
+    grid-template-rows: 0.25fr 6fr;
     height: 100vh;
 }
 
 .header {
-    background-color: ;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     padding: 2rem;
-    grid-gap: 0.5rem;
+    gap: 0.5rem;
     z-index: 1;
     box-shadow: 0 0.25rem 1rem;
     font-weight: bold;
@@ -42,10 +41,11 @@ body {
 }
 
 .header-bottom-left > .user-pfp > img {
-    width: 8rem;
-    height: 8rem;
+    width: 6rem;
+    height: 6rem;
     border-radius: 50%;
     object-fit: cover;
+    margin-right: 1rem;
 }
 
 .user-name-greeting {
@@ -67,6 +67,9 @@ body {
     gap: 0.4rem;
 }
 
+.header-bottom-right {
+    gap: 3rem;
+}
 .search-container {
     display: flex;
     justify-content: flex-start;
@@ -96,7 +99,7 @@ body {
 .header-bottom-right button {
     background-color: #ff3341;
     border: none;
-    padding: 0.5rem 1.5rem;
+    padding: 1rem 2.5rem;
     color: white;
     border-radius: 1rem;
     font-weight: 550;
