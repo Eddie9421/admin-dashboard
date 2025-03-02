@@ -6,7 +6,7 @@
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 5fr;
     height: 30vh;
 }
@@ -71,4 +71,35 @@ img {
     background-color: #f2f2f2;
     border-radius: 2rem;
     height: 2rem;
+}
+
+.sidebar {
+    background-color: turquoise;
+    display: grid;
+    justify-content: center;;
+    align-items: center;
+    grid-template-rows: 1fr 4fr 2fr;
+    grid-row: span 2; 
+}
+
+.dashboard-top, .dashboard-middle, .dashboard-bottom, .dashboard-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-middle, .dashboard-bottom {
+    flex-direction: column;
+}
+
+.dashboard-top {
+    grid-row: 1 / 2;
+}
+
+.dashboard-middle {
+    grid-row: 2 / 3;
+}
+
+.dashboard-bottom {
+    grid-row: 3 / 4;
 }
